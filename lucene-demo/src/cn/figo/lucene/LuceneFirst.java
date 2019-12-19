@@ -29,8 +29,7 @@ public class LuceneFirst {
         //3、读取磁盘上的文件，对应每个文件创建一个文档对象。
         File dir = new File("D:\\1_Code\\java\\lucene\\searchsource");
         File[] files = dir.listFiles();
-        for (File f :
-                files) {
+        for (File f : files) {
             //取文件名
             String fileName = f.getName();
             //文件的路径
@@ -42,21 +41,21 @@ public class LuceneFirst {
             //创建Field
             //参数1：域的名称，参数2：域的内容，参数3：是否存储
             Field fieldName = new TextField("name", fileName, Field.Store.YES);
-            //Field fieldPath = new TextField("path", filePath, Field.Store.YES);
-            Field fieldPath = new StoredField("path", filePath);
+            Field fieldPath = new TextField("path", filePath, Field.Store.YES);
+//            Field fieldPath = new StoredField("path", filePath);
             Field fieldContent = new TextField("content", fileContent, Field.Store.YES);
-            //Field fieldSize = new TextField("size", fileSize + "", Field.Store.YES);
-            Field fieldSizeValue = new LongPoint("size", fileSize);
-            Field fieldSizeStore = new StoredField("size", fileSize);
+            Field fieldSize = new TextField("size", fileSize + "", Field.Store.YES);
+//            Field fieldSizeValue = new LongPoint("size", fileSize);
+//            Field fieldSizeStore = new StoredField("size", fileSize);
             //创建文档对象
             Document document = new Document();
             //向文档对象中添加域
             document.add(fieldName);
             document.add(fieldPath);
             document.add(fieldContent);
-            //document.add(fieldSize);
-            document.add(fieldSizeValue);
-            document.add(fieldSizeStore);
+            document.add(fieldSize);
+//            document.add(fieldSizeValue);
+//            document.add(fieldSizeStore);
             //5、把文档对象写入索引库
             indexWriter.addDocument(document);
         }
@@ -73,7 +72,7 @@ public class LuceneFirst {
         //3、创建一个IndexSearcher对象，构造方法中的参数indexReader对象。
         IndexSearcher indexSearcher = new IndexSearcher(indexReader);
         //4、创建一个Query对象，TermQuery
-        Query query = new TermQuery(new Term("name", "spring"));
+        Query query = new TermQuery(new Term("content", "spring"));
         //5、执行查询，得到一个TopDocs对象
         //参数1：查询对象 参数2：查询结果返回的最大记录数
         TopDocs topDocs = indexSearcher.search(query, 10);
@@ -82,8 +81,7 @@ public class LuceneFirst {
         //7、取文档列表
         ScoreDoc[] scoreDocs = topDocs.scoreDocs;
         //8、打印文档中的内容
-        for (ScoreDoc doc :
-                scoreDocs) {
+        for (ScoreDoc doc : scoreDocs) {
             //取文档id
             int docId = doc.doc;
             //根据id取文档对象
@@ -91,8 +89,8 @@ public class LuceneFirst {
             System.out.println(document.get("name"));
             System.out.println(document.get("path"));
             System.out.println(document.get("size"));
-            //System.out.println(document.get("content"));
-            System.out.println("-----------------寂寞的分割线");
+//            System.out.println(document.get("content"));
+            System.out.println("--------------------------");
         }
         //9、关闭IndexReader对象
         indexReader.close();
