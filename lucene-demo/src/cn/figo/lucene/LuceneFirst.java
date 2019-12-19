@@ -77,7 +77,7 @@ public class LuceneFirst {
         //3、创建一个IndexSearcher对象，构造方法中的参数indexReader对象。
         IndexSearcher indexSearcher = new IndexSearcher(indexReader);
         //4、创建一个Query对象，TermQuery
-        Query query = new TermQuery(new Term("content", "spring"));
+        Query query = new TermQuery(new Term("name", "spring"));
         //5、执行查询，得到一个TopDocs对象
         //参数1：查询对象 参数2：查询结果返回的最大记录数
         TopDocs topDocs = indexSearcher.search(query, 10);
