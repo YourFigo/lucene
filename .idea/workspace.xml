@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fd3ee86-d92c-41f1-b6e7-feb47e00a491" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lucene-demo/src/cn/figo/lucene/IndexManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lucene-demo/src/cn/figo/lucene/SearchIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lucene-demo/lib/lucene-queryparser-7.4.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lucene-demo/src/cn/figo/lucene/LuceneFirst.java" beforeDir="false" afterPath="$PROJECT_DIR$/lucene-demo/src/cn/figo/lucene/LuceneFirst.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/lucene-demo/cn/figo/lucene/LuceneFirst.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lucene-demo/cn/figo/lucene/LuceneFirst.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/index/_0.cfe" beforeDir="false" afterPath="$PROJECT_DIR$/temp/index/_0.cfe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/index/_0.cfs" beforeDir="false" afterPath="$PROJECT_DIR$/temp/index/_0.cfs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/index/_0.si" beforeDir="false" afterPath="$PROJECT_DIR$/temp/index/_0.si" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/index/segments_1" beforeDir="false" afterPath="$PROJECT_DIR$/temp/index/segments_1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lucene-demo/lucene-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lucene-demo/lucene-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lucene-demo/src/cn/figo/lucene/SearchIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/lucene-demo/src/cn/figo/lucene/SearchIndex.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +43,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lucene-demo/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lucene-demo/lib/lucene-queryparser-7.4.0.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.16875" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -56,8 +51,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\1_Code\java\lucene\lucene-demo\src" />
       <recent name="D:\1_Code\java\lucene\lucene-demo\lib" />
+      <recent name="D:\1_Code\java\lucene\lucene-demo\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -72,7 +67,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LuceneFirst.createIndex">
+  <component name="RunManager" selected="JUnit.SearchIndex.testQueryParser">
     <configuration name="IndexManager.deleteAllDocument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lucene-demo" />
       <extension name="coverage">
@@ -84,22 +79,6 @@
       <option name="PACKAGE_NAME" value="cn.figo.lucene" />
       <option name="MAIN_CLASS_NAME" value="cn.figo.lucene.IndexManager" />
       <option name="METHOD_NAME" value="deleteAllDocument" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IndexManager.updateDocument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lucene-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.figo.lucene.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.figo.lucene" />
-      <option name="MAIN_CLASS_NAME" value="cn.figo.lucene.IndexManager" />
-      <option name="METHOD_NAME" value="updateDocument" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,7 +116,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LuceneFirst.testTokenStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SearchIndex.testQueryParser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lucene-demo" />
       <extension name="coverage">
         <pattern>
@@ -146,8 +125,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.figo.lucene" />
-      <option name="MAIN_CLASS_NAME" value="cn.figo.lucene.LuceneFirst" />
-      <option name="METHOD_NAME" value="testTokenStream" />
+      <option name="MAIN_CLASS_NAME" value="cn.figo.lucene.SearchIndex" />
+      <option name="METHOD_NAME" value="testQueryParser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchIndex.testRangeQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lucene-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.figo.lucene.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.figo.lucene" />
+      <option name="MAIN_CLASS_NAME" value="cn.figo.lucene.SearchIndex" />
+      <option name="METHOD_NAME" value="testRangeQuery" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -155,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SearchIndex.testQueryParser" />
+        <item itemvalue="JUnit.SearchIndex.testRangeQuery" />
         <item itemvalue="JUnit.LuceneFirst.createIndex" />
         <item itemvalue="JUnit.IndexManager.deleteAllDocument" />
         <item itemvalue="JUnit.LuceneFirst.searchIndex" />
-        <item itemvalue="JUnit.LuceneFirst.testTokenStream" />
-        <item itemvalue="JUnit.IndexManager.updateDocument" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +169,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576683717939</updated>
       <workItem from="1576683720149" duration="2473000" />
-      <workItem from="1576758193651" duration="8171000" />
+      <workItem from="1576758193651" duration="9259000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1576686699797</created>
@@ -218,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576766192574</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="lucene 索引库的维护">
+      <created>1576768216961</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1576768216961</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,6 +256,7 @@
     <MESSAGE value="lucene 查询索引" />
     <MESSAGE value="lucene 标准分析器 和 IKAnalyzer 分析器" />
     <MESSAGE value="lucene Field的种类" />
-    <option name="LAST_COMMIT_MESSAGE" value="lucene Field的种类" />
+    <MESSAGE value="lucene 索引库的维护" />
+    <option name="LAST_COMMIT_MESSAGE" value="lucene 索引库的维护" />
   </component>
 </project>
