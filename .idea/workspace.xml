@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fd3ee86-d92c-41f1-b6e7-feb47e00a491" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lucene-demo/lib/IK-Analyzer-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lucene-demo/src/IKAnalyzer.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lucene-demo/src/hotword.dic" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lucene-demo/src/stopword.dic" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lucene-demo/lucene-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lucene-demo/lucene-demo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lucene-demo/src/cn/figo/lucene/LuceneFirst.java" beforeDir="false" afterPath="$PROJECT_DIR$/lucene-demo/src/cn/figo/lucene/LuceneFirst.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/lucene-demo/cn/figo/lucene/LuceneFirst.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lucene-demo/cn/figo/lucene/LuceneFirst.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/index/_0.cfe" beforeDir="false" afterPath="$PROJECT_DIR$/temp/index/_0.cfe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/index/_0.cfs" beforeDir="false" afterPath="$PROJECT_DIR$/temp/index/_0.cfs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/index/_0.si" beforeDir="false" afterPath="$PROJECT_DIR$/temp/index/_0.si" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/index/segments_1" beforeDir="false" afterPath="$PROJECT_DIR$/temp/index/segments_1" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -143,7 +134,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576683717939</updated>
       <workItem from="1576683720149" duration="2473000" />
-      <workItem from="1576758193651" duration="4942000" />
+      <workItem from="1576758193651" duration="6144000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1576686699797</created>
@@ -173,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576763680119</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="lucene 标准分析器 和 IKAnalyzer 分析器">
+      <created>1576765119592</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576765119592</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +205,7 @@
     <MESSAGE value="lucene" />
     <MESSAGE value="lucene 索引库" />
     <MESSAGE value="lucene 查询索引" />
-    <option name="LAST_COMMIT_MESSAGE" value="lucene 查询索引" />
+    <MESSAGE value="lucene 标准分析器 和 IKAnalyzer 分析器" />
+    <option name="LAST_COMMIT_MESSAGE" value="lucene 标准分析器 和 IKAnalyzer 分析器" />
   </component>
 </project>

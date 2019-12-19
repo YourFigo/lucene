@@ -46,21 +46,21 @@ public class LuceneFirst {
             //创建Field
             //参数1：域的名称，参数2：域的内容，参数3：是否存储
             Field fieldName = new TextField("name", fileName, Field.Store.YES);
-            Field fieldPath = new TextField("path", filePath, Field.Store.YES);
-//            Field fieldPath = new StoredField("path", filePath);
+//            Field fieldPath = new TextField("path", filePath, Field.Store.YES);
+            Field fieldPath = new StoredField("path", filePath);
             Field fieldContent = new TextField("content", fileContent, Field.Store.YES);
-            Field fieldSize = new TextField("size", fileSize + "", Field.Store.YES);
-//            Field fieldSizeValue = new LongPoint("size", fileSize);
-//            Field fieldSizeStore = new StoredField("size", fileSize);
+//            Field fieldSize = new TextField("size", fileSize + "", Field.Store.YES);
+            Field fieldSizeValue = new LongPoint("size", fileSize);
+            Field fieldSizeStore = new StoredField("size", fileSize);
             //创建文档对象
             Document document = new Document();
             //向文档对象中添加域
             document.add(fieldName);
             document.add(fieldPath);
             document.add(fieldContent);
-            document.add(fieldSize);
-//            document.add(fieldSizeValue);
-//            document.add(fieldSizeStore);
+//            document.add(fieldSize);
+            document.add(fieldSizeValue);
+            document.add(fieldSizeStore);
             //5、把文档对象写入索引库
             indexWriter.addDocument(document);
         }
