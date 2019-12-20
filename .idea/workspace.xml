@@ -2,16 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fd3ee86-d92c-41f1-b6e7-feb47e00a491" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lucene-demo/lib/lucene-queryparser-7.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lucene-demo/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lucene-demo/lucene-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lucene-demo/lucene-demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lucene-demo/src/cn/figo/lucene/SearchIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/lucene-demo/src/cn/figo/lucene/SearchIndex.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,7 +55,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lucene-demo/lib/lucene-queryparser-7.4.0.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lucene-demo" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.16875" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -51,6 +63,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\1_Code\java\lucene\lucene-demo" />
       <recent name="D:\1_Code\java\lucene\lucene-demo\lib" />
       <recent name="D:\1_Code\java\lucene\lucene-demo\src" />
     </key>
@@ -169,7 +182,8 @@
       <option name="presentableId" value="Default" />
       <updated>1576683717939</updated>
       <workItem from="1576683720149" duration="2473000" />
-      <workItem from="1576758193651" duration="9259000" />
+      <workItem from="1576758193651" duration="9533000" />
+      <workItem from="1576769715770" duration="36000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1576686699797</created>
@@ -220,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576768216961</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="lucene 范围查询以及QueryParser查询">
+      <created>1576769340546</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1576769340546</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,6 +278,7 @@
     <MESSAGE value="lucene 标准分析器 和 IKAnalyzer 分析器" />
     <MESSAGE value="lucene Field的种类" />
     <MESSAGE value="lucene 索引库的维护" />
-    <option name="LAST_COMMIT_MESSAGE" value="lucene 索引库的维护" />
+    <MESSAGE value="lucene 范围查询以及QueryParser查询" />
+    <option name="LAST_COMMIT_MESSAGE" value="lucene 范围查询以及QueryParser查询" />
   </component>
 </project>
