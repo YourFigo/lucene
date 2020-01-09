@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fd3ee86-d92c-41f1-b6e7-feb47e00a491" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lucene-demo/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lucene-demo/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lucene-demo/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +55,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lucene-demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.16875" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -184,6 +184,8 @@
       <workItem from="1576683720149" duration="2473000" />
       <workItem from="1576758193651" duration="9533000" />
       <workItem from="1576769715770" duration="36000" />
+      <workItem from="1576937203573" duration="1284000" />
+      <workItem from="1578582069033" duration="332000" />
     </task>
     <task id="LOCAL-00001" summary="初始化">
       <created>1576686699797</created>
